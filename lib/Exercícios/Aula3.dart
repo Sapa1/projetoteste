@@ -10,19 +10,15 @@ class Aula3 extends StatelessWidget {
       child: Column(
         children: [
           ComponentContainer(
-            cor: Colors.red,
-            margin: EdgeInsets.only(top: 100, bottom: 60),
+            cor: Colors.white,
+            margin: EdgeInsets.only(top: 60, bottom: 60),
           ),
-          Container(
-            color: Colors.white,
-            height: 150,
-            width: 350,
-            margin: EdgeInsets.only(bottom: 60),
+          ComponentContainer(
+            cor: Colors.white,
+            margin: EdgeInsets.only(bottom: 70),
           ),
-          Container(
-            color: Colors.white,
-            height: 150,
-            width: 350,
+          ComponentContainer(
+            cor: Colors.white,
           ),
           Expanded(
             child: Container(),
